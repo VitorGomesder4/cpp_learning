@@ -1,0 +1,16 @@
+2:
+
+D9 = 0 (numero de cartões)
+
+E1 E6val = []
+E2 E9 = 31
+E3 leia e copie o cartão com valor de gols para E4
+E4 [lista de gols]
+E5 E9 += 1
+E6 D9 += 1
+E7 Se E9 != 31 retorne para E3
+E8 media = ([x+y+z..])/31, avançe para F1
+E9 int_dia
+
+F1 cout media
+F2 STOP
