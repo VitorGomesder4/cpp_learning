@@ -1,12 +1,16 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
-    int numero = 0;
-    char letra = 'a';
+    int numero = 0; //inteiro
+    char letra = 'a'; //char unico
+    char arrayletras[20]; //array de chars
     double quebrado = 2.4999999; // double é mais preciso e usa 64 bits
     float quebrado_float = 2.5; // float é menos preciso e usa 32 bits
-    bool vivo = true;
+    bool vivo = true; //true or false
+    string nome; //textos com mais de 1 char, é preciso dar #include <string> para usar
+
     std::cout << numero;
     return numero;
 }
