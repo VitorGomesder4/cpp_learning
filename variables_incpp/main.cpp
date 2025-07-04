@@ -6,6 +6,7 @@ int main(){
     char letra = 'a';
     double quebrado = 2.4999999; // double é mais preciso e usa 64 bits
     float quebrado_float = 2.5; // float é menos preciso e usa 32 bits
+    bool vivo = true;
     std::cout << numero;
     return numero;
 }
@@ -17,6 +18,7 @@ void fatorial(){
     int i = 0;
     int r = 0;
     int teste = 0;
+    bool sucesso = false;
 
     std::cout << "Digite o numero a ser calculado o fatorial: ";
     std::cin >> fatorial;
@@ -34,6 +36,6 @@ void fatorial(){
         
         i+=1;
     }
-
+    sucesso = true;
     std::cout << r;
 }
