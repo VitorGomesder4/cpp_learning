@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     int numero = 0;
     char letra = 'a';
-    double quebrado = 2.4999999; // double pode ser mais preciso pois usa 64 bits
-    float quebrado_float = 2.5; // float é menos preciso pois  usa 32 bits
+    double quebrado = 2.4999999; // double é mais preciso e usa 64 bits
+    float quebrado_float = 2.5; // float é menos preciso e usa 32 bits
     std::cout << numero;
     return numero;
 }
